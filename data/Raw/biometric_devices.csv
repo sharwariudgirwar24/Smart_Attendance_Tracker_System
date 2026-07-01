@@ -1,0 +1,8 @@
+device_id,device_name,location,sensor_type,resolution,far,frr,template_capacity,status,protocol
+RDR-BIO-001,ZKTeco K40,Lab-A1,Optical,500 DPI,0.0001%,0.1%,3000,Online,ISO 19794-2
+RDR-BIO-002,ZKTeco SF100,Lab-A2,Optical,500 DPI,0.0001%,0.1%,2000,Online,ISO 19794-2
+RDR-BIO-003,Mantra MFS100,Room-201,Optical,500 DPI,0.001%,0.01%,Unlimited,Online,ISO 19794-2
+RDR-BIO-004,Startek FM220U,Room-202,Capacitive,508 DPI,0.001%,0.1%,Unlimited,Online,ISO 19794-2
+RDR-BIO-005,Secugen Hamster Pro,Room-203,Optical,500 DPI,0.0001%,0.01%,Unlimited,Online,ISO 19794-2
+RDR-BIO-006,ZKTeco K40,Lab-B1,Optical,500 DPI,0.0001%,0.1%,3000,Online,ISO 19794-2
+RDR-BIO-000,ZKTeco K40,Main Gate,Optical,500 DPI,0.0001%,0.1%,3000,Online,ISO 19794-2
