@@ -1,7 +1,0 @@
-subject_code,subject_name,teacher,room,credits,semester,department
-AIPC350T,Deep Learning,Dr. R. Mehta,Lab-A1,4,VI,CSE (AI & ML)
-AIPC351T,Generative AI & Prompt Eng,Prof. S. Joshi,Room-201,4,VI,CSE (AI & ML)
-AIPC352T,Computer Vision,Dr. P. Kulkarni,Lab-A2,4,VI,CSE (AI & ML)
-AIPC353T,NLP & Text Analytics,Prof. A. Desai,Room-202,4,VI,CSE (AI & ML)
-AIPC354T,Cloud Computing,Dr. V. Sharma,Room-203,4,VI,CSE (AI & ML)
-AIPC355T,Data Engineering,Prof. N. Patil,Lab-B1,4,VI,CSE (AI & ML)
