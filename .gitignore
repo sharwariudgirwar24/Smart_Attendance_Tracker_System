@@ -1,0 +1,57 @@
+# ===== Secrets / credentials — NEVER commit these =====
+configs/firebase_config.json
+configs/*.json
+!configs/*.example.json
+*.env
+.env
+.env.local
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ===== Virtual environments =====
+venv/
+env/
+ENV/
+.venv/
+
+# ===== Data — raw and processed data usually shouldn't live in git =====
+# (they're large, change often, and can contain real employee/student PII)
+data/raw/*
+data/proccesed/*
+!data/raw/.gitkeep
+!data/proccesed/.gitkeep
+
+# ===== Trained models (large binary files — track separately if needed) =====
+models/*.pkl
+models/*.h5
+models/*.joblib
+!models/.gitkeep
+
+# ===== VS Code =====
+.vscode/
+!.vscode/settings.json
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== Power BI (can be large / binary — optional to ignore) =====
+*.pbix.bak
