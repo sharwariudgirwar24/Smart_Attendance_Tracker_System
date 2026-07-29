@@ -30,7 +30,9 @@ ENV/
 # ===== Data — raw and processed data usually shouldn't live in git =====
 # (they're large, change often, and can contain real employee/student PII)
 data/raw/*
+data/proccesed/*
 !data/raw/.gitkeep
+!data/proccesed/.gitkeep
 
 # ===== Trained models (large binary files — track separately if needed) =====
 models/*.pkl
